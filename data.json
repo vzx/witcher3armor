@@ -1,0 +1,1697 @@
+{
+  "stats": {
+    "game": {
+      "damage": "Damage",
+      "armor": "Armor",
+      "piercing": "Armor piercing",
+      "toxicity": "Toxicity",
+      "sign": "Sign intensity",
+      "aard": "Aard Sign intensity",
+      "attack_power": "Attack power",
+      "adrenaline_gain": "Adrenaline Point gain",
+      "crit_damage": "Critical hit damage bonus",
+      "chance_crit": "Critical hit chance",
+      "chance_bleeding": "Chance to cause bleeding",
+      "chance_dismember": "Chance to dismember",
+      "resist_piercing": "Resistance to piercing damage",
+      "resist_bludg": "Resistance to bludgeoning damage",
+      "resist_slashing": "Resistance to slashing damage",
+      "resist_monsters": "Resistance to damage from monsters",
+      "resist_elemental": "Resistance to elemental damage",
+      "exp_monster": "Bonus experience from monsters",
+      "exp_humans": "Bonus experience from humans and nonhumans",
+      "sockets": "Socket"
+    },
+    "short": {
+      "damage": "Damage",
+      "armor": "Armor",
+      "piercing": "Armor piercing",
+      "toxicity": "Toxicity",
+      "sign": "Sign intensity",
+      "aard": "Aard",
+      "attack_power": "Attack power",
+      "adrenaline_gain": "Adrenaline Point",
+      "crit_damage": "Crit damage",
+      "chance_crit": "Crit chance",
+      "chance_bleeding": "Bleeding chance",
+      "chance_dismember": "Dismember chance",
+      "resist_piercing": "Piercing resist",
+      "resist_bludg": "Bludgeoning resist",
+      "resist_slashing": "Slashing resist",
+      "resist_monsters": "Monster resist",
+      "resist_elemental": "Elemental resist",
+      "exp_monster": "Monster experience",
+      "exp_humans": "(Non)human experience",
+      "sockets": "Socket"
+    }
+  },
+  "sets": {
+    "feline": {
+      "base": {
+        "name": "Feline",
+        "type": "Light",
+        "level": 17,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/witcher-armor-cat-school-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Feline_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Feline silver sword",
+          "stats": {
+            "damage": "256-312",
+            "aard": 12,
+            "chance_bleeding": 5,
+            "exp_monster": 20,
+            "sockets": 1
+          }
+        },
+        "steel": {
+          "name": "Feline steel sword",
+          "stats": {
+            "damage": "162-198",
+            "chance_bleeding": 5,
+            "exp_humans": 5,
+            "sockets": 1
+          }
+        },
+        "armor": {
+          "name": "Feline armor",
+          "stats": {
+            "armor": 120,
+            "attack_power": 5,
+            "resist_piercing": 5,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 20,
+            "sockets": 1
+          }
+        },
+        "boots": {
+          "name": "Feline boots",
+          "stats": {
+            "armor": 43,
+            "attack_power": 5,
+            "resist_piercing": 1,
+            "resist_slashing": 2,
+            "resist_monsters": 2,
+            "resist_elemental": 5
+          }
+        },
+        "trousers": {
+          "name": "Feline trousers",
+          "stats": {
+            "armor": 43,
+            "attack_power": 5,
+            "resist_piercing": 1,
+            "resist_slashing": 3,
+            "resist_monsters": 3,
+            "resist_elemental": 10
+          }
+        },
+        "gauntlets": {
+          "name": "Feline gauntlets",
+          "stats": {
+            "armor": 39,
+            "attack_power": 5,
+            "resist_piercing": 1,
+            "resist_slashing": 1,
+            "resist_monsters": 1,
+            "resist_elemental": 5
+          }
+        }
+      },
+      "enhanced": {
+        "name": "Enhanced Feline",
+        "type": "Light",
+        "level": 23,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/enhanced-cat-feline-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Feline_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Feline silver sword - enhanced",
+          "stats": {
+            "damage": "310-378",
+            "aard": 14,
+            "chance_bleeding": 10,
+            "exp_monster": 20,
+            "sockets": 2
+          }
+        },
+        "steel": {
+          "name": "Feline steel sword - enhanced",
+          "stats": {
+            "damage": "205-251",
+            "chance_bleeding": 10,
+            "exp_humans": 5,
+            "sockets": 2
+          }
+        },
+        "armor": {
+          "name": "Enhanced Feline armor",
+          "stats": {
+            "armor": 150,
+            "attack_power": 10,
+            "resist_piercing": 6,
+            "resist_slashing": 8,
+            "resist_monsters": 8,
+            "resist_elemental": 30,
+            "sockets": 2
+          }
+        },
+        "boots": {
+          "name": "Enhanced Feline boots",
+          "stats": {
+            "armor": 55,
+            "attack_power": 6,
+            "resist_piercing": 2,
+            "resist_slashing": 3,
+            "resist_monsters": 3,
+            "resist_elemental": 5
+          }
+        },
+        "trousers": {
+          "name": "Enhanced Feline trousers",
+          "stats": {
+            "armor": 55,
+            "attack_power": 6,
+            "resist_piercing": 2,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "resist_elemental": 10,
+            "sockets": 1
+          }
+        },
+        "gauntlets": {
+          "name": "Enhanced Feline gauntlets",
+          "stats": {
+            "armor": 51,
+            "attack_power": 6,
+            "resist_piercing": 2,
+            "resist_slashing": 2,
+            "resist_monsters": 2,
+            "resist_elemental": 5
+          }
+        }
+      },
+      "superior": {
+        "name": "Superior Feline",
+        "type": "Light",
+        "level": 29,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/superior-feline-cat-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Feline_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Feline silver sword - superior",
+          "stats": {
+            "damage": "364-444",
+            "aard": 14,
+            "chance_crit": 5,
+            "chance_bleeding": 10,
+            "chance_dismember": 5,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Feline steel sword - superior",
+          "stats": {
+            "damage": "248-304",
+            "chance_crit": 5,
+            "chance_bleeding": 10,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Superior Feline armor",
+          "stats": {
+            "armor": 180,
+            "attack_power": 15,
+            "resist_piercing": 8,
+            "resist_slashing": 11,
+            "resist_monsters": 11,
+            "resist_elemental": 35,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Superior Feline boots",
+          "stats": {
+            "armor": 67,
+            "attack_power": 8,
+            "resist_piercing": 3,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "resist_elemental": 5,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Superior Feline trousers",
+          "stats": {
+            "armor": 67,
+            "attack_power": 8,
+            "resist_piercing": 3,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 15,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Superior Feline gauntlets",
+          "stats": {
+            "armor": 63,
+            "attack_power": 8,
+            "resist_piercing": 3,
+            "resist_slashing": 3,
+            "resist_monsters": 3,
+            "resist_elemental": 5,
+            "sockets": 1
+          }
+        }
+      },
+      "mastercrafted": {
+        "name": "Mastercrafted Feline",
+        "type": "Light",
+        "level": 34,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/mastercrafted-cat-feline-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Feline_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Feline silver sword - mastercrafted",
+          "stats": {
+            "damage": "409-499",
+            "aard": 15,
+            "chance_crit": 10,
+            "chance_bleeding": 15,
+            "chance_dismember": 10,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Feline steel sword - mastercrafted",
+          "stats": {
+            "damage": "284-348",
+            "chance_crit": 10,
+            "chance_bleeding": 15,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Mastercrafted Feline armor",
+          "stats": {
+            "armor": 205,
+            "attack_power": 20,
+            "resist_piercing": 10,
+            "resist_slashing": 15,
+            "resist_monsters": 15,
+            "resist_elemental": 45,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Mastercrafted Feline boots",
+          "stats": {
+            "armor": 77,
+            "attack_power": 10,
+            "resist_piercing": 4,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 5,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Mastercrafted Feline trousers",
+          "stats": {
+            "armor": 77,
+            "attack_power": 10,
+            "resist_piercing": 4,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "resist_elemental": 15,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Mastercrafted Feline gauntlets",
+          "stats": {
+            "armor": 73,
+            "attack_power": 10,
+            "resist_piercing": 4,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "resist_elemental": 5,
+            "sockets": 1
+          }
+        }
+      },
+      "grandmaster": {
+        "name": "Grandmaster Feline",
+        "type": "Light",
+        "level": 41,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/grandmaster-feline-cat-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Feline_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Grandmaster Feline silver sword",
+          "stats": {
+            "damage": "472-576",
+            "aard": 15,
+            "chance_crit": 10,
+            "chance_bleeding": 15,
+            "chance_dismember": 10,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Grandmaster Feline steel sword",
+          "stats": {
+            "damage": "335-409",
+            "aard": 15,
+            "chance_crit": 10,
+            "chance_bleeding": 15,
+            "chance_dismember": 10,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Grandmaster Feline armor",
+          "stats": {
+            "armor": 240,
+            "attack_power": 22,
+            "resist_piercing": 12,
+            "resist_slashing": 17,
+            "resist_monsters": 17,
+            "resist_elemental": 46,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Grandmaster Feline boots",
+          "stats": {
+            "armor": 91,
+            "attack_power": 11,
+            "resist_piercing": 5,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "resist_elemental": 6,
+            "sockets": 2
+          }
+        },
+        "trousers": {
+          "name": "Grandmaster Feline trousers",
+          "stats": {
+            "armor": 91,
+            "attack_power": 11,
+            "resist_piercing": 5,
+            "resist_slashing": 7,
+            "resist_monsters": 7,
+            "resist_elemental": 16,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Grandmaster Feline gauntlets",
+          "stats": {
+            "armor": 87,
+            "attack_power": 11,
+            "resist_piercing": 5,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 6,
+            "sockets": 2
+          }
+        }
+      }
+    },
+    "griffin": {
+      "base": {
+        "name": "Griffin",
+        "type": "Medium",
+        "level": 11,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/witcher-armor-griffin-school-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Griffin_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Griffin silver sword",
+          "stats": {
+            "damage": "202-246",
+            "sign": 5,
+            "exp_monster": 20,
+            "sockets": 1
+          }
+        },
+        "steel": {
+          "name": "Griffin steel sword",
+          "stats": {
+            "damage": "119-145",
+            "sign": 5,
+            "exp_humans": 5,
+            "sockets": 1
+          }
+        },
+        "armor": {
+          "name": "Griffin armor",
+          "stats": {
+            "armor": 90,
+            "sign": 5,
+            "resist_piercing": 5,
+            "resist_bludg": 5,
+            "resist_slashing": 10,
+            "resist_monsters": 15,
+            "sockets": 1
+          }
+        },
+        "boots": {
+          "name": "Griffin boots",
+          "stats": {
+            "armor": 31,
+            "sign": 5,
+            "resist_piercing": 1,
+            "resist_bludg": 1,
+            "resist_slashing": 2,
+            "resist_monsters": 2
+          }
+        },
+        "trousers": {
+          "name": "Griffin trousers",
+          "stats": {
+            "armor": 31,
+            "sign": 5,
+            "resist_piercing": 2,
+            "resist_slashing": 5,
+            "resist_monsters": 7,
+            "resist_elemental": 17
+          }
+        },
+        "gauntlets": {
+          "name": "Griffin gauntlets",
+          "stats": {
+            "armor": 27,
+            "sign": 5,
+            "resist_piercing": 1,
+            "resist_slashing": 2,
+            "resist_monsters": 2,
+            "resist_elemental": 5
+          }
+        }
+      },
+      "enhanced": {
+        "name": "Enhanced Griffin",
+        "type": "Medium",
+        "level": 18,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/enhanced-griffin-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Griffin_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Griffin silver sword - enhanced",
+          "stats": {
+            "damage": "265-323",
+            "sign": 10,
+            "exp_monster": 20,
+            "sockets": 2
+          }
+        },
+        "steel": {
+          "name": "Griffin steel sword - enhanced",
+          "stats": {
+            "damage": "169-207",
+            "sign": 10,
+            "exp_humans": 5,
+            "sockets": 2
+          }
+        },
+        "armor": {
+          "name": "Enhanced Griffin armor",
+          "stats": {
+            "armor": 125,
+            "sign": 10,
+            "resist_piercing": 8,
+            "resist_bludg": 8,
+            "resist_slashing": 14,
+            "resist_monsters": 20,
+            "sockets": 2
+          }
+        },
+        "boots": {
+          "name": "Enhanced Griffin boots",
+          "stats": {
+            "armor": 45,
+            "sign": 6,
+            "resist_piercing": 2,
+            "resist_bludg": 2,
+            "resist_slashing": 3,
+            "resist_monsters": 3
+          }
+        },
+        "trousers": {
+          "name": "Enhanced Griffin trousers",
+          "stats": {
+            "armor": 45,
+            "sign": 6,
+            "resist_piercing": 3,
+            "resist_slashing": 6,
+            "resist_monsters": 7,
+            "resist_elemental": 19,
+            "sockets": 1
+          }
+        },
+        "gauntlets": {
+          "name": "Enhanced Griffin gauntlets",
+          "stats": {
+            "armor": 41,
+            "sign": 6,
+            "resist_piercing": 2,
+            "resist_slashing": 3,
+            "resist_monsters": 3,
+            "resist_elemental": 6
+          }
+        }
+      },
+      "superior": {
+        "name": "Superior Griffin",
+        "type": "Medium",
+        "level": 26,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/superior-griffin-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Griffin_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Griffin silver sword - superior",
+          "stats": {
+            "damage": "337-411",
+            "sign": 15,
+            "crit_damage": 25,
+            "chance_dismember": 10,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Griffin steel sword - superior",
+          "stats": {
+            "damage": "227-277",
+            "sign": 15,
+            "crit_damage": 25,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Superior Griffin armor",
+          "stats": {
+            "armor": 165,
+            "sign": 15,
+            "resist_piercing": 12,
+            "resist_bludg": 12,
+            "resist_slashing": 18,
+            "resist_monsters": 25,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Superior Griffin boots",
+          "stats": {
+            "armor": 61,
+            "sign": 8,
+            "resist_piercing": 3,
+            "resist_bludg": 3,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Superior Griffin trousers",
+          "stats": {
+            "armor": 61,
+            "sign": 8,
+            "resist_piercing": 4,
+            "resist_slashing": 7,
+            "resist_monsters": 10,
+            "resist_elemental": 23,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Superior Griffin gauntlets",
+          "stats": {
+            "armor": 57,
+            "sign": 8,
+            "resist_piercing": 3,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "resist_elemental": 8,
+            "sockets": 1
+          }
+        }
+      },
+      "mastercrafted": {
+        "name": "Mastercrafted Griffin",
+        "type": "Medium",
+        "level": 34,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/mastercrafted-griffin-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Griffin_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Griffin silver sword - mastercrafted",
+          "stats": {
+            "damage": "409-499",
+            "sign": 20,
+            "crit_damage": 25,
+            "chance_crit": 5,
+            "chance_dismember": 10,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Griffin steel sword - mastercrafted",
+          "stats": {
+            "damage": "284-348",
+            "sign": 20,
+            "crit_damage": 25,
+            "chance_crit": 5,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Mastercrafted Griffin armor",
+          "stats": {
+            "armor": 205,
+            "sign": 20,
+            "resist_piercing": 17,
+            "resist_bludg": 16,
+            "resist_slashing": 22,
+            "resist_monsters": 30,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Mastercrafted Griffin boots",
+          "stats": {
+            "armor": 77,
+            "sign": 10,
+            "resist_piercing": 4,
+            "resist_slashing": 5,
+            "resist_bludg": 4,
+            "resist_monsters": 5,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Mastercrafted Griffin trousers",
+          "stats": {
+            "armor": 77,
+            "sign": 10,
+            "resist_piercing": 5,
+            "resist_slashing": 8,
+            "resist_monsters": 10,
+            "resist_elemental": 30,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Mastercrafted Griffin gauntlets",
+          "stats": {
+            "armor": 73,
+            "sign": 10,
+            "resist_piercing": 4,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 10,
+            "sockets": 1
+          }
+        }
+      },
+      "grandmaster": {
+        "name": "Grandmaster Griffin",
+        "type": "Medium",
+        "level": 41,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/grandmaster-griffin-armor/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Griffin_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Grandmaster Griffin silver sword",
+          "stats": {
+            "damage": "472-576",
+            "sign": 21,
+            "crit_damage": 25,
+            "chance_crit": 5,
+            "chance_dismember": 10,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Grandmaster Griffin steel sword",
+          "stats": {
+            "damage": "335-409",
+            "sign": 21,
+            "crit_damage": 25,
+            "chance_crit": 5,
+            "chance_dismember": 10,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Grandmaster Griffin armor",
+          "stats": {
+            "armor": 240,
+            "sign": 22,
+            "resist_piercing": 19,
+            "resist_bludg": 17,
+            "resist_slashing": 24,
+            "resist_monsters": 31,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Grandmaster Griffin boots",
+          "stats": {
+            "armor": 91,
+            "sign": 11,
+            "resist_piercing": 5,
+            "resist_slashing": 6,
+            "resist_bludg": 5,
+            "resist_monsters": 6,
+            "sockets": 2
+          }
+        },
+        "trousers": {
+          "name": "Grandmaster Griffin trousers",
+          "stats": {
+            "armor": 91,
+            "sign": 11,
+            "resist_piercing": 6,
+            "resist_slashing": 9,
+            "resist_monsters": 11,
+            "resist_elemental": 33,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Grandmaster Griffin gauntlets",
+          "stats": {
+            "armor": 87,
+            "sign": 11,
+            "resist_piercing": 5,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "resist_elemental": 12,
+            "sockets": 2
+          }
+        }
+      }
+    },
+    "wolven": {
+      "base": {
+        "name": "Wolven",
+        "type": "Medium",
+        "level": 14,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/witcher-armor-wolf-school-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Wolven_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Wolven silver sword",
+          "stats": {
+            "damage": "229-279",
+            "sign": 5,
+            "adrenaline_gain": 5,
+            "chance_bleeding": 5,
+            "exp_monster": 20,
+            "sockets": 1
+          }
+        },
+        "steel": {
+          "name": "Wolven steel sword",
+          "stats": {
+            "damage": "140-172",
+            "sign": 5,
+            "adrenaline_gain": 5,
+            "chance_bleeding": 5,
+            "exp_humans": 5,
+            "sockets": 1
+          }
+        },
+        "armor": {
+          "name": "Wolven armor",
+          "stats": {
+            "armor": 105,
+            "adrenaline_gain": 5,
+            "resist_piercing": 5,
+            "resist_bludg": 5,
+            "resist_slashing": 10,
+            "resist_monsters": 15,
+            "sockets": 1
+          }
+        },
+        "boots": {
+          "name": "Wolven boots",
+          "stats": {
+            "armor": 37,
+            "attack_power": 5,
+            "resist_piercing": 1,
+            "resist_bludg": 1,
+            "resist_slashing": 2,
+            "resist_monsters": 2
+          }
+        },
+        "trousers": {
+          "name": "Wolven trousers",
+          "stats": {
+            "armor": 37,
+            "attack_power": 5,
+            "sign": 5,
+            "resist_slashing": 5,
+            "resist_monsters": 7,
+            "resist_elemental": 17
+          }
+        },
+        "gauntlets": {
+          "name": "Wolven gauntlets",
+          "stats": {
+            "armor": 33,
+            "sign": 5,
+            "resist_piercing": 1,
+            "resist_slashing": 2,
+            "resist_monsters": 2,
+            "resist_elemental": 5
+          }
+        }
+      },
+      "enhanced": {
+        "name": "Enhanced Wolven",
+        "type": "Medium",
+        "level": 21,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/enhanced-wolf-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Wolven_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Wolven silver sword - enhanced",
+          "stats": {
+            "damage": "292-356",
+            "sign": 6,
+            "adrenaline_gain": 6,
+            "chance_bleeding": 6,
+            "exp_monster": 20,
+            "sockets": 2
+          }
+        },
+        "steel": {
+          "name": "Wolven steel sword - enhanced",
+          "stats": {
+            "damage": "191-233",
+            "sign": 6,
+            "adrenaline_gain": 6,
+            "chance_bleeding": 6,
+            "exp_humans": 5,
+            "sockets": 2
+          }
+        },
+        "armor": {
+          "name": "Enhanced Wolven armor",
+          "stats": {
+            "armor": 140,
+            "adrenaline_gain": 10,
+            "resist_piercing": 8,
+            "resist_bludg": 8,
+            "resist_slashing": 14,
+            "resist_monsters": 20,
+            "sockets": 2
+          }
+        },
+        "boots": {
+          "name": "Enhanced Wolven boots",
+          "stats": {
+            "armor": 51,
+            "attack_power": 6,
+            "resist_piercing": 2,
+            "resist_bludg": 2,
+            "resist_slashing": 3,
+            "resist_monsters": 3
+          }
+        },
+        "trousers": {
+          "name": "Enhanced Wolven trousers",
+          "stats": {
+            "armor": 51,
+            "attack_power": 6,
+            "sign": 6,
+            "resist_slashing": 6,
+            "resist_monsters": 7,
+            "resist_elemental": 19,
+            "sockets": 1
+          }
+        },
+        "gauntlets": {
+          "name": "Enhanced Wolven gauntlets",
+          "stats": {
+            "armor": 47,
+            "sign": 6,
+            "resist_piercing": 2,
+            "resist_slashing": 3,
+            "resist_monsters": 3,
+            "resist_elemental": 6
+          }
+        }
+      },
+      "superior": {
+        "name": "Superior Wolven",
+        "type": "Medium",
+        "level": 29,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/superior-wolf-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Wolven_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Wolven silver sword - superior",
+          "stats": {
+            "damage": "364-444",
+            "sign": 7,
+            "adrenaline_gain": 7,
+            "chance_crit": 5,
+            "chance_bleeding": 7,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Wolven steel sword - superior",
+          "stats": {
+            "damage": "248-304",
+            "sign": 7,
+            "adrenaline_gain": 7,
+            "chance_crit": 5,
+            "chance_bleeding": 7,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Superior Wolven armor",
+          "stats": {
+            "armor": 180,
+            "adrenaline_gain": 15,
+            "resist_piercing": 12,
+            "resist_bludg": 12,
+            "resist_slashing": 18,
+            "resist_monsters": 25,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Superior Wolven boots",
+          "stats": {
+            "armor": 67,
+            "attack_power": 8,
+            "resist_piercing": 3,
+            "resist_bludg": 3,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Superior Wolven trousers",
+          "stats": {
+            "armor": 67,
+            "attack_power": 8,
+            "sign": 8,
+            "resist_slashing": 7,
+            "resist_monsters": 10,
+            "resist_elemental": 23,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Superior Wolven gauntlets",
+          "stats": {
+            "armor": 63,
+            "sign": 8,
+            "resist_piercing": 3,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "resist_elemental": 8,
+            "sockets": 1
+          }
+        }
+      },
+      "mastercrafted": {
+        "name": "Mastercrafted Wolven",
+        "type": "Medium",
+        "level": 34,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/mastercrafted-wolf-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Wolven_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Wolven silver sword - mastercrafted",
+          "stats": {
+            "damage": "409-499",
+            "sign": 10,
+            "adrenaline_gain": 10,
+            "chance_crit": 10,
+            "chance_bleeding": 10,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Wolven steel sword - mastercrafted",
+          "stats": {
+            "damage": "284-348",
+            "sign": 10,
+            "adrenaline_gain": 10,
+            "chance_crit": 10,
+            "chance_bleeding": 10,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Mastercrafted Wolven armor",
+          "stats": {
+            "armor": 205,
+            "adrenaline_gain": 20,
+            "resist_piercing": 17,
+            "resist_bludg": 16,
+            "resist_slashing": 22,
+            "resist_monsters": 30,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Mastercrafted Wolven boots",
+          "stats": {
+            "armor": 77,
+            "attack_power": 10,
+            "resist_piercing": 4,
+            "resist_bludg": 4,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Mastercrafted Wolven trousers",
+          "stats": {
+            "armor": 77,
+            "attack_power": 10,
+            "sign": 10,
+            "resist_slashing": 8,
+            "resist_monsters": 10,
+            "resist_elemental": 30,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Mastercrafted Wolven gauntlets",
+          "stats": {
+            "armor": 73,
+            "sign": 10,
+            "resist_piercing": 4,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 10,
+            "sockets": 1
+          }
+        }
+      },
+      "grandmaster": {
+        "name": "Grandmaster Wolven",
+        "type": "Medium",
+        "level": 41,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/grandmaster-wolf-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Wolven_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Grandmaster Wolven silver sword",
+          "stats": {
+            "damage": "472-576",
+            "sign": 11,
+            "adrenaline_gain": 11,
+            "chance_crit": 11,
+            "chance_bleeding": 11,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Grandmaster Wolven steel sword",
+          "stats": {
+            "damage": "335-409",
+            "sign": 11,
+            "adrenaline_gain": 11,
+            "chance_crit": 11,
+            "chance_bleeding": 11,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Grandmaster Wolven armor",
+          "stats": {
+            "armor": 240,
+            "adrenaline_gain": 22,
+            "resist_piercing": 19,
+            "resist_bludg": 17,
+            "resist_slashing": 24,
+            "resist_monsters": 31,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Grandmaster Wolven boots",
+          "stats": {
+            "armor": 91,
+            "attack_power": 11,
+            "resist_piercing": 5,
+            "resist_bludg": 5,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "sockets": 2
+          }
+        },
+        "trousers": {
+          "name": "Grandmaster Wolven trousers",
+          "stats": {
+            "armor": 91,
+            "attack_power": 11,
+            "sign": 11,
+            "resist_slashing": 9,
+            "resist_monsters": 11,
+            "resist_elemental": 33,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Grandmaster Wolven gauntlets",
+          "stats": {
+            "armor": 87,
+            "sign": 11,
+            "resist_piercing": 5,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "resist_elemental": 12,
+            "sockets": 2
+          }
+        }
+      }
+    },
+    "ursine": {
+      "base": {
+        "name": "Ursine",
+        "type": "Heavy",
+        "level": 20,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/witcher-armor-bear-school-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Ursine_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Ursine silver sword",
+          "stats": {
+            "damage": "283-345",
+            "adrenaline_gain": 5,
+            "chance_crit": 5,
+            "chance_dismember": 10,
+            "exp_monster": 20,
+            "sockets": 1
+          }
+        },
+        "steel": {
+          "name": "Ursine steel sword",
+          "stats": {
+            "damage": "184-224",
+            "adrenaline_gain": 5,
+            "exp_humans": 5,
+            "sockets": 1
+          }
+        },
+        "armor": {
+          "name": "Ursine armor",
+          "stats": {
+            "armor": 135,
+            "adrenaline_gain": 5,
+            "resist_piercing": 5,
+            "resist_bludg": 5,
+            "resist_slashing": 15,
+            "resist_monsters": 20,
+            "sockets": 1
+          }
+        },
+        "boots": {
+          "name": "Ursine boots",
+          "stats": {
+            "armor": 49,
+            "adrenaline_gain": 5,
+            "resist_piercing": 2,
+            "resist_bludg": 2,
+            "resist_slashing": 2,
+            "resist_monsters": 2
+          }
+        },
+        "trousers": {
+          "name": "Ursine trousers",
+          "stats": {
+            "armor": 49,
+            "adrenaline_gain": 5,
+            "resist_piercing": 2,
+            "resist_slashing": 7,
+            "resist_monsters": 10,
+            "resist_elemental": 5
+          }
+        },
+        "gauntlets": {
+          "name": "Ursine gauntlets",
+          "stats": {
+            "armor": 45,
+            "adrenaline_gain": 5,
+            "resist_piercing": 2,
+            "resist_slashing": 2,
+            "resist_monsters": 2,
+            "resist_elemental": 2
+          }
+        }
+      },
+      "enhanced": {
+        "name": "Enhanced Ursine",
+        "type": "Heavy",
+        "level": 25,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/enhanced-bear-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Ursine_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Ursine silver sword - enhanced",
+          "stats": {
+            "damage": "328-400",
+            "adrenaline_gain": 10,
+            "crit_damage": 25,
+            "chance_crit": 5,
+            "chance_dismember": 12,
+            "exp_monster": 20,
+            "sockets": 2
+          }
+        },
+        "steel": {
+          "name": "Ursine steel sword - enhanced",
+          "stats": {
+            "damage": "220-268",
+            "adrenaline_gain": 10,
+            "crit_damage": 25,
+            "exp_humans": 5,
+            "sockets": 2
+          }
+        },
+        "armor": {
+          "name": "Enhanced Ursine armor",
+          "stats": {
+            "armor": 160,
+            "adrenaline_gain": 10,
+            "resist_piercing": 10,
+            "resist_bludg": 10,
+            "resist_slashing": 20,
+            "resist_monsters": 30,
+            "sockets": 2
+          }
+        },
+        "boots": {
+          "name": "Enhanced Ursine boots",
+          "stats": {
+            "armor": 59,
+            "adrenaline_gain": 6,
+            "resist_piercing": 3,
+            "resist_bludg": 3,
+            "resist_slashing": 3,
+            "resist_monsters": 3
+          }
+        },
+        "trousers": {
+          "name": "Enhanced Ursine trousers",
+          "stats": {
+            "armor": 59,
+            "adrenaline_gain": 6,
+            "resist_piercing": 3,
+            "resist_slashing": 8,
+            "resist_monsters": 10,
+            "resist_elemental": 10,
+            "sockets": 1
+          }
+        },
+        "gauntlets": {
+          "name": "Enhanced Ursine gauntlets",
+          "stats": {
+            "armor": 55,
+            "adrenaline_gain": 6,
+            "resist_piercing": 3,
+            "resist_slashing": 3,
+            "resist_monsters": 3,
+            "resist_elemental": 3
+          }
+        }
+      },
+      "superior": {
+        "name": "Superior Ursine",
+        "type": "Heavy",
+        "level": 25,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/superior-bear-ursine-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Ursine_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Ursine silver sword - superior",
+          "stats": {
+            "damage": "373-455",
+            "adrenaline_gain": 15,
+            "crit_damage": 50,
+            "chance_crit": 5,
+            "chance_dismember": 13,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Ursine steel sword - superior",
+          "stats": {
+            "damage": "256-312",
+            "adrenaline_gain": 15,
+            "crit_damage": 50,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Superior Ursine armor",
+          "stats": {
+            "armor": 185,
+            "adrenaline_gain": 15,
+            "resist_piercing": 15,
+            "resist_bludg": 15,
+            "resist_slashing": 25,
+            "resist_monsters": 35,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Superior Ursine boots",
+          "stats": {
+            "armor": 69,
+            "adrenaline_gain": 8,
+            "resist_piercing": 4,
+            "resist_bludg": 4,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Superior Ursine trousers",
+          "stats": {
+            "armor": 69,
+            "adrenaline_gain": 8,
+            "resist_piercing": 4,
+            "resist_slashing": 9,
+            "resist_monsters": 15,
+            "resist_elemental": 15,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Superior Ursine gauntlets",
+          "stats": {
+            "armor": 65,
+            "adrenaline_gain": 8,
+            "resist_piercing": 4,
+            "resist_slashing": 4,
+            "resist_monsters": 4,
+            "resist_elemental": 4,
+            "sockets": 1
+          }
+        }
+      },
+      "mastercrafted": {
+        "name": "Mastercrafted Ursine",
+        "type": "Heavy",
+        "level": 34,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/mastercrafted-bear-ursine-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Ursine_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Ursine silver sword - mastercrafted",
+          "stats": {
+            "damage": "409-499",
+            "adrenaline_gain": 20,
+            "crit_damage": 75,
+            "chance_crit": 5,
+            "chance_dismember": 14,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Ursine steel sword - mastercrafted",
+          "stats": {
+            "damage": "284-348",
+            "adrenaline_gain": 20,
+            "crit_damage": 75,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Mastercrafted Ursine armor",
+          "stats": {
+            "armor": 205,
+            "adrenaline_gain": 20,
+            "resist_piercing": 25,
+            "resist_bludg": 25,
+            "resist_slashing": 30,
+            "resist_monsters": 45,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Mastercrafted Ursine boots",
+          "stats": {
+            "armor": 77,
+            "adrenaline_gain": 10,
+            "resist_piercing": 5,
+            "resist_bludg": 5,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "sockets": 1
+          }
+        },
+        "trousers": {
+          "name": "Mastercrafted Ursine trousers",
+          "stats": {
+            "armor": 77,
+            "adrenaline_gain": 10,
+            "resist_piercing": 5,
+            "resist_slashing": 10,
+            "resist_monsters": 15,
+            "resist_elemental": 20,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Mastercrafted Ursine gauntlets",
+          "stats": {
+            "armor": 73,
+            "adrenaline_gain": 10,
+            "resist_piercing": 5,
+            "resist_slashing": 5,
+            "resist_monsters": 5,
+            "resist_elemental": 5,
+            "sockets": 1
+          }
+        }
+      },
+      "grandmaster": {
+        "name": "Grandmaster Ursine",
+        "type": "Heavy",
+        "level": 41,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/grandmaster-ursine-bear-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Ursine_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Grandmaster Ursine silver sword",
+          "stats": {
+            "damage": "472-576",
+            "adrenaline_gain": 21,
+            "crit_damage": 75,
+            "chance_crit": 5,
+            "chance_dismember": 14,
+            "exp_monster": 20,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Grandmaster Ursine steel sword",
+          "stats": {
+            "damage": "335-409",
+            "adrenaline_gain": 21,
+            "crit_damage": 75,
+            "chance_crit": 5,
+            "chance_dismember": 14,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Grandmaster Ursine armor",
+          "stats": {
+            "armor": 240,
+            "adrenaline_gain": 22,
+            "resist_piercing": 26,
+            "resist_bludg": 25,
+            "resist_slashing": 32,
+            "resist_monsters": 46,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Grandmaster Ursine boots",
+          "stats": {
+            "armor": 91,
+            "adrenaline_gain": 11,
+            "resist_piercing": 6,
+            "resist_bludg": 5,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "sockets": 2
+          }
+        },
+        "trousers": {
+          "name": "Grandmaster Ursine trousers",
+          "stats": {
+            "armor": 91,
+            "adrenaline_gain": 11,
+            "resist_piercing": 6,
+            "resist_slashing": 11,
+            "resist_monsters": 16,
+            "resist_elemental": 25,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Grandmaster Ursine gauntlets",
+          "stats": {
+            "armor": 87,
+            "adrenaline_gain": 11,
+            "resist_piercing": 6,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "resist_elemental": 6,
+            "sockets": 2
+          }
+        }
+      }
+    },
+    "manticore": {
+      "grandmaster": {
+        "name": "Manticore",
+        "type": "Medium",
+        "level": 41,
+        "links": {
+          "Gosu Noob": "http://www.gosunoob.com/witcher-3/manticore-armor-witcher-gear/",
+          "IGN": "http://www.ign.com/wikis/the-witcher-3-wild-hunt/Manticore_Witcher_Gear"
+        },
+        "silver": {
+          "name": "Manticore silver sword",
+          "stats": {
+            "damage": "472-576",
+            "piercing": 250,
+            "crit_damage": 50,
+            "chance_crit": 5,
+            "chance_bleeding": 10,
+            "exp_monster": 5,
+            "sockets": 3
+          }
+        },
+        "steel": {
+          "name": "Manticore steel sword",
+          "stats": {
+            "damage": "335-409",
+            "piercing": 250,
+            "crit_damage": 50,
+            "chance_crit": 5,
+            "chance_bleeding": 10,
+            "exp_humans": 5,
+            "sockets": 3
+          }
+        },
+        "armor": {
+          "name": "Manticore armor",
+          "stats": {
+            "armor": 240,
+            "toxicity": 10,
+            "resist_piercing": 19,
+            "resist_slashing": 24,
+            "resist_monsters": 31,
+            "crit_damage": 25,
+            "sockets": 3
+          }
+        },
+        "boots": {
+          "name": "Manticore boots",
+          "stats": {
+            "armor": 91,
+            "toxicity": 5,
+            "resist_piercing": 5,
+            "resist_slashing": 6,
+            "resist_monsters": 6,
+            "crit_damage": 25,
+            "sockets": 2
+          }
+        },
+        "trousers": {
+          "name": "Manticore trousers",
+          "stats": {
+            "armor": 91,
+            "toxicity": 10,
+            "resist_slashing": 9,
+            "resist_monsters": 11,
+            "resist_elemental": 33,
+            "chance_crit": 5,
+            "sockets": 2
+          }
+        },
+        "gauntlets": {
+          "name": "Manticore gauntlets",
+          "stats": {
+            "armor": 87,
+            "toxicity": 5,
+            "resist_piercing": 5,
+            "resist_slashing": 6,
+            "resist_elemental": 12,
+            "chance_crit": 5,
+            "sockets": 2
+          }
+        }
+      }
+    }
+  }
+}

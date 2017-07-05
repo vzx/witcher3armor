@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Witcher 3 Witcher Armor Sets</title>
+    <style>
+        body {
+            font: 0.8em sans-serif;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #filters {
+            margin-bottom: 20px;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        #filters ul li {
+            display: inline;
+        }
+
+        .moo td, th {
+            vertical-align: top;
+            text-align: left;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .moo th {
+            font-weight: bold;
+        }
+
+        .moo td {
+            padding-bottom: 20px;
+        }
+
+        .moo tr:hover td {
+            background-color: #f0f0f0;
+        }
+
+        .moo {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        .name {
+            text-decoration: underline;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links {
+            text-decoration: underline;
+        }
+
+        .links ul {
+            text-decoration: none;
+        }
+
+        #general {
+            display: none;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"></script>
+</head>
+
+<body>
+
+<h1>The Witcher 3 Armor Sets</h1>
+
+<h2>General information (<a href="javascript:void(0)" id="general_toggle">expand</a>)</h2>
+<div id="general">
+    <h3>Armor type</h3>
+    <p><strong>Note:</strong> you have to learn <i>and</i> use the skill to apply the appropriate effect.</p>
+    <table class="moo">
+        <tr>
+            <th>Armor type</th>
+            <th>Description</th>
+            <th>Related skill</th>
+            <th>Skill description</th>
+        </tr>
+        <tr>
+            <td>Light</td>
+            <td>Increases Armor and Stamina generation</td>
+            <td>Cat school techniques</td>
+            <td>Each piece of light armor increases critical hit damage by 25% and fast attack damage by 5%</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>Increases Armor</td>
+            <td>Griffin school techniques</td>
+            <td>Each piece of medium armor increases Sign intensity by 5% and Stamina regeneration by 5%.</td>
+        </tr>
+        <tr>
+            <td>Heavy</td>
+            <td>Increases Armor and decreases Stamina generation</td>
+            <td>Bear school techniques</td>
+            <td>Each piece of heavy armor increases maximum Vitality by 5% and strong attack damage by 5%.</td>
+        </tr>
+    </table>
+
+    <h3>Set bonuses</h3>
+    <p><strong>Note:</strong> set bonuses apply only to Grandmaster level items.</p>
+
+    <table class="moo">
+        <tr>
+            <td>Feline</td>
+            <td>
+                <strong>Bonus for 3 pieces</strong><br>
+                Strong Attacks increase Fast Attack damage for 5 seconds by 10% for each piece of the set.<br>
+                <strong>Bonus for 6 pieces</strong><br>
+                Rear attacks deal 50% more damage, also stun opponents at the cost of 1 Adrenaline Point(s).
+            </td>
+        </tr>
+        <tr>
+            <td>Griffin</td>
+            <td>
+                <strong>Bonus for 3 pieces</strong><br>
+                After using Stamina to cast a Sign in its standard mode, the next Sign cast within 3 seconds will be cast in standard mode without using Stamina.<br>
+                <strong>Bonus for 6 pieces</strong><br>
+                The size of Yrden traps is increased by 40%. While you are within an Yrden trap, Stamina regeneration is increased by 5/s and Sign Intensity by 100%, and damage is reduced by 20%.
+            </td>
+        </tr>
+        <tr>
+            <td>Wolven</td>
+            <td>
+                <strong>Bonus for 3 pieces</strong><br>
+                Up to three different oils can be applied to a sword at a time.<br>
+                <strong>Bonus for 6 pieces</strong><br>
+                Bombs are thrown without any delay.
+            </td>
+        </tr>
+        <tr>
+            <td>Ursine</td>
+            <td>
+                <strong>Bonus for 3 pieces</strong><br>
+                When a Quen shield shatters, there is a chance a new one will be cast at no Stamina cost. The bonus increases by 5% for each piece of the set.<br>
+                <strong>Bonus for 6 pieces</strong><br>
+                Damage dealt by Abilities involving the Quen Sign is increased by 200%.
+            </td>
+        </tr>
+        <tr>
+            <td>Manticore</td>
+            <td>
+                <strong>Bonus for 3 pieces</strong><br>
+                Critical hit chance and critical hit damage also apply to bombs.<br>
+                <strong>Bonus for 6 pieces</strong><br>
+                The maximum number of charges for each alchemy item is increased by 1.
+            </td>
+        </tr>
+    </table>
+</div>
+
+<h2>Armor sets</h2>
+<table id="filters">
+    <tr>
+        <td class="right">Set level:</td>
+        <td>
+            <ul>
+                <li><label><input type="radio" disabled="disabled" checked="checked" name="filter-setlevel" value="all">All</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setlevel" value="base">Base</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setlevel" value="enhanced">Enhanced</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setlevel" value="superior">Superior</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setlevel" value="mastercrafted">Mastercrafted</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setlevel" value="grandmaster">Grandmaster</label></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="right"> Set:</td>
+        <td>
+            <ul>
+                <li><label><input type="radio" disabled="disabled" checked="checked" name="filter-setid" value="all">All</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setid" value="feline">Feline (Cat)</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setid" value="griffin">Griffin</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setid" value="wolven">Wolven (Wolf)</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setid" value="ursine">Ursine (Bear)</label></li>
+                <li><label><input type="radio" disabled="disabled" name="filter-setid" value="manticore">Manticore</label></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="right"> Sort:</td>
+        <td>
+            <ul>
+                <li><label><input type="radio" disabled="disabled" checked="checked" name="sort" value="set">Set</label></li>
+                <li><label><input type="radio" disabled="disabled" name="sort" value="level">Level</label></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="right"> Descriptions:</td>
+        <td>
+            <ul>
+                <li><label><input type="radio" disabled="disabled" checked="checked" name="dictionary" value="short">Short</label></li>
+                <li><label><input type="radio" disabled="disabled" name="dictionary" value="game">Same as in-game</label></li>
+                <li><label><input type="checkbox" disabled="disabled" checked="checked" name="wrap">Wrap text</label></li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table id="data" class="moo">
+    <thead>
+    <tr>
+        <th>Set</th>
+        <th>Silver sword</th>
+        <th>Steel sword</th>
+        <th>Chest armor</th>
+        <th>Boots</th>
+        <th>Trousers</th>
+        <th>Gauntlets</th>
+        <th>Totals</th>
+    </tr>
+    </thead>
+
+    <tbody id="setsbody">
+    </tbody>
+</table>
+
+
+<script>
+    let global_data;
+
+    function render_stat(key, name, value, short) {
+        switch (key) {
+            case 'sockets':
+                return value + ' ' + name + (value === 1 ? '' : 's');
+            case 'piercing':
+                return (short ? '' : '+') + ' ' + name;
+            case 'toxicity':
+            case 'damage':
+            case 'armor':
+                return value + ' ' + name;
+            default:
+                return (short ? '' : '+') + value + (short ? '' : ' ') + '% ' + name;
+        }
+    }
+
+    function render_stats(stats, dict, short, totals) {
+        let row = '';
+        $.each(dict, function (stat_key, stat_name) {
+            let stat_value = stats[stat_key];
+
+            if (stat_value) {
+                row += '<li>' + render_stat(stat_key, stat_name, stat_value, short) + '</li>';
+
+                if (totals) {
+                    if (stat_key !== 'damage') {
+                        if (totals[stat_key]) {
+                            totals[stat_key] += stat_value;
+                        } else {
+                            totals[stat_key] = stat_value;
+                        }
+                    }
+                }
+            }
+        });
+        return row;
+    }
+
+    function render(data, state) {
+        let dictionary = state.dictionary || 'short';
+        let sortorder = state.sortorder || 'set';
+        let filter_setlevel = state.filter_setlevel || 'all';
+        let filter_setid = state.filter_setid || 'all';
+
+        let sets = [];
+
+        $.each(data.sets, function (collection_id, setlist) {
+            if (filter_setid === 'all' || collection_id === filter_setid) {
+                $.each(setlist, function (set_level, item_set) {
+                    if (filter_setlevel === 'all' || set_level === filter_setlevel) {
+                        sets.push(item_set);
+                    }
+                });
+            }
+        });
+
+        if (sortorder === 'level') {
+            sets.sort(function (a, b) {
+                return a.level < b.level ? -1 : a.level > b.level ? 1 : 0;
+            });
+        }
+
+        let dict = data.stats[dictionary];
+        let short = dictionary === 'short';
+        let item_keys = ['silver', 'steel', 'armor', 'boots', 'trousers', 'gauntlets'];
+        let setsbody = $('#setsbody');
+
+        setsbody.empty();
+
+        sets.forEach(function (item_set) {
+            let totals = {};
+            let row = '<tr><td><ul><li class="name">' + item_set.name + '</li><li>' + item_set.type + '</li><li>Level: ' + item_set.level + '</li></ul>';
+            row += '<div class="links">Links<ul>';
+            $.each(item_set.links, function (link_name, url) {
+                row += '<li><a href="' + url + '">' + link_name + '</a></li>';
+            });
+            row += '</ul></div></td>';
+
+            item_keys.forEach(function (item_key) {
+                let item = item_set[item_key];
+
+                row += '<td><ul><li class="name">' + item.name + '</li>' + render_stats(item.stats, dict, short, totals) + '</ul></td>';
+            });
+
+            row += '<td><ul><li class="name">Totals</li>' + render_stats(totals, dict, short, false) + '</ul></td>';
+            row += "</tr>";
+
+            setsbody.append(row);
+        })
+    }
+
+    function get_state() {
+        return Cookies.getJSON('state') || {};
+    }
+
+    function write_state(state) {
+        Cookies.set('state', state, {expires: 365});
+    }
+
+    function set_state(prop, val) {
+        let state = get_state();
+        state[prop] = val;
+        write_state(state);
+    }
+
+    function set_wrap(wrap) {
+        $('#data').css('white-space', wrap ? 'normal' : 'nowrap');
+    }
+
+    $().ready(function () {
+        let state = get_state();
+        let filters = $('#filters');
+        let general_toggle = $('#general_toggle');
+
+        general_toggle.click(function () {
+            let g = $('#general');
+            g.toggle();
+
+            let vis = g.is(':visible');
+            set_state('general_hidden', !vis);
+            $(this).text(vis ? 'collapse' : 'expand');
+        });
+
+        function set_radio(name, val) {
+            if (val) {
+                filters.find('input[name="' + name + '"]').val([val]);
+            }
+        }
+
+        set_radio('dictionary', state.dictionary);
+        set_radio('sort', state.sortorder);
+        set_radio('filter-setlevel', state.filter_setlevel);
+        set_radio('filter-setid', state.filter_setid);
+
+        if (state.nowrap) {
+            filters.find('input[name="wrap"]').prop('checked', false);
+            set_wrap(false);
+        }
+
+        if (!state.general_hidden) {
+            $('#general').show();
+            general_toggle.text('collapse');
+        }
+
+        filters.find('input[type="radio"]').change(function () {
+            if (!global_data) {
+                return;
+            }
+
+            let state = get_state();
+
+            state.dictionary = filters.find('input[name="dictionary"]:checked').val();
+            state.sortorder = filters.find('input[name="sort"]:checked').val();
+            state.filter_setlevel = filters.find('input[name="filter-setlevel"]:checked').val();
+            state.filter_setid = filters.find('input[name="filter-setid"]:checked').val();
+
+            write_state(state);
+            render(global_data, state);
+        });
+
+        filters.find('input[name="wrap"]').change(function () {
+            let wrap = this.checked;
+            set_state('nowrap', !wrap);
+            set_wrap(wrap);
+        });
+
+        $.getJSON('data.json', function (data) {
+            global_data = data;
+            render(data, state);
+            $('#filters').find('input').prop('disabled', false);
+        });
+    });
+</script>
+
+</body>
+
+</html>
