@@ -341,15 +341,15 @@
     }
 
     $(function () {
-        let state = get_state();
-        let filters = $('#filters');
-        let general_toggle = $('#general_toggle');
+        const state = get_state();
+        const filters = $('#filters');
+        const general_toggle = $('#general_toggle');
 
         general_toggle.click(function () {
             let g = $('#general');
             g.toggle();
 
-            let vis = g.is(':visible');
+            const vis = g.is(':visible');
             set_state('general_hidden', !vis);
             $(this).text(vis ? 'collapse' : 'expand');
         });
@@ -380,7 +380,7 @@
                 return;
             }
 
-            let state = get_state();
+            const state = get_state();
 
             state.dictionary = filters.find('input[name="dictionary"]:checked').val();
             state.sortorder = filters.find('input[name="sort"]:checked').val();
@@ -396,10 +396,12 @@
             set_state('nowrap', !wrap);
             set_wrap(wrap);
         });
+    });
 
-        $.getJSON('data.json', function (data) {
-            global_data = data;
-            render(data, state);
+    $.getJSON('data.json', function (data) {
+        global_data = data;
+        $(function () {
+            render(data, get_state());
             $('#filters').find('input').prop('disabled', false);
         });
     });
